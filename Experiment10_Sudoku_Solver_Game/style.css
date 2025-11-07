@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  gap: 4px;
+  justify-content: center;
+  margin: 10px 0;
+}
+#grid input {
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#solveBtn { background: #4f46e5; color: white; }
+#applyBtn { background: #10b981; color: white; }
+#easyBtn, #mediumBtn, #hardBtn { background: #f59e0b; color: black; }
+#clearBtn { background: #ef4444; color: white; }
+#message { margin-top: 10px; color: #333; }
